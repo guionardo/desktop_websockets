@@ -3,10 +3,23 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
-    <script src="websocket.js"></script>
+    <title>Teste WebSocket Local</title>
+    
 </head>
 <body>
+    <div>
+        <label>Comando</label>
+        <select id="sel">
+            <option>alo</option>
+            <option>quit</option>
+        </select>
+        <input id="send" type="button" value="Enviar"/>
+    </div>
+    <div>
+        <label>Retorno</label>
+        <textarea rows="10" id="retorno"></textarea>
+    </div>
 
+    <script src="websocket.js"></script>
 </body>
 </html>
