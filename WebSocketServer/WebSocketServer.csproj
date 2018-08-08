@@ -34,6 +34,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="http\index.html" />
@@ -54,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WS_Common\WS_Common.csproj">
-      <Project>{D87D8A42-C4D0-458D-A7CE-D854C611B60A}</Project>
+      <Project>{d87d8a42-c4d0-458d-a7ce-d854c611b60a}</Project>
       <Name>WS_Common</Name>
     </ProjectReference>
   </ItemGroup>
