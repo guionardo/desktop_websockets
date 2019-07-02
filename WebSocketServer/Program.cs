@@ -97,6 +97,9 @@ namespace WebSocketServer
                                 for (int i = 0; i < 64; i++)
                                     enviar += "0123456789ABCDEF";
                                 break;
+                            case "hora":
+                                enviar = DateTime.Now.ToString();
+                                break;
                         }
 
                     }
